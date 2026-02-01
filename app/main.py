@@ -32,12 +32,11 @@ def main():
             elif new_command[1] not in built_in_commands:
                 print(f"{new_command[1]}: not found")
             else:
+                exe = get_executable_from_path(program)
+                if exe:
+                    print(f"{program} is {exe}")
                 else:
-                    exe = get_executable_from_path(program)
-                    if exe:
-                        print(f"{program} is {exe}")
-                    else:
-                        print(f"{program}: not found")
+                    print(f"{program}: not found")
         else:
             print(f"{command}: command not found")
 
