@@ -1,9 +1,8 @@
 import sys
 
-
 def main():
 
-    built_in_commands = ["echo", "exit", "type"]
+    built_in_commands = ["echo", "type", "exit"]
 
     while True:
         sys.stdout.write("$ ")
@@ -25,7 +24,6 @@ def main():
                 print(f"{new_command[1]}: not found")
         else:
             print(f"{command}: command not found")
-            
 
 
 if __name__ == "__main__":
