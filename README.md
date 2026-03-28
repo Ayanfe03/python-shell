@@ -18,6 +18,7 @@ Behavior:
 - The shell displays a `$ ` prompt.
 - Commands are split into words: the first word is interpreted as the command, and the rest as arguments.
 - Unknown commands print a “command not found” message.
+- Executable files can be located with the type shell builtin
 - Safely handles missing arguments for `type`.
 
 Example usage:
@@ -44,9 +45,9 @@ Prerequisites
 - Clone the repository and run the shell:
 
 ```bash
-git clone https://github.com/username/mini-shell-python.git
-cd mini-shell-python
-python shell.py
+git clone https://github.com/Ayanfe03/python-shell.git
+cd python-shell
+python app/main.py
 ```
 
 
@@ -63,7 +64,9 @@ The shell will run in a loop until you type exit.
 
 - Add autocompletion
 
-- Locating executable files etc...
+- Locating executable files --> Done ✅
+
+- etc...
 
 
 ## Contributing
