@@ -63,7 +63,9 @@ The shell will run in a loop until you type exit.
 
 - Add autocompletion
 
-- Locating executable files etc...
+- Locating executable files --> Done ✅
+
+- etc...
 
 
 ## Contributing
